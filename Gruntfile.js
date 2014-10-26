@@ -401,7 +401,9 @@ module.exports = function(grunt) {
                     hostname: 'localhost',
                     serverreload: false,
                     bases: 'build',
-                    livereload: true
+                    livereload: true,
+                    server: './server/server.js'
+
                 }
             }
         },
