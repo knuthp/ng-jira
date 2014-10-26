@@ -1,6 +1,12 @@
 var express = require('express');
 var app = express();
-app.get('/api', function(req, res) {
-  res.send('hello!');
+
+var request = require('request');
+
+app.get('/rest/*', function(req, res) {
+  //modify the url in any way you want
+  var newurl = 'http://jira.atlassian.com/' + req.url;
+  console.log('Using newUrl: ' + newurl);
+  request(newurl).pipe(res);
 });
 module.exports = app;
