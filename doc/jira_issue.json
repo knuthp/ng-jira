@@ -1,0 +1,266 @@
+{
+  "expand": "renderedFields,names,schema,transitions,operations,editmeta,changelog",
+  "id": "358579",
+  "self": "https://jira.atlassian.com/rest/api/latest/issue/358579",
+  "key": "TST-56333",
+  "fields": {
+    "progress": {
+      "progress": 7200,
+      "total": 28800,
+      "percent": 25
+    },
+    "summary": "Gala radio does not play in app for vk.com",
+    "timetracking": {
+      "originalEstimate": "6h",
+      "remainingEstimate": "6h",
+      "timeSpent": "2h",
+      "originalEstimateSeconds": 21600,
+      "remainingEstimateSeconds": 21600,
+      "timeSpentSeconds": 7200
+    },
+    "issuetype": {
+      "self": "https://jira.atlassian.com/rest/api/2/issuetype/1",
+      "id": "1",
+      "description": "A problem which impairs or prevents the functions of the product.",
+      "iconUrl": "https://jira.atlassian.com/images/icons/issuetypes/bug.png",
+      "name": "Bug",
+      "subtask": false
+    },
+    "customfield_14733": "0|xtgifo:",
+    "customfield_14734": "0|11c0ds:",
+    "timespent": 7200,
+    "customfield_14731": "2|zyvsul:",
+    "customfield_14732": "0|11c10o:",
+    "customfield_10230": null,
+    "customfield_14532": null,
+    "reporter": {
+      "self": "https://jira.atlassian.com/rest/api/2/user?username=iryselvg1",
+      "name": "iryselvg1",
+      "emailAddress": "iryselvg at gmail dot com",
+      "avatarUrls": {
+        "16x16": "https://jira.atlassian.com/secure/useravatar?size=xsmall&ownerId=iryselvg1&avatarId=77647",
+        "24x24": "https://jira.atlassian.com/secure/useravatar?size=small&ownerId=iryselvg1&avatarId=77647",
+        "32x32": "https://jira.atlassian.com/secure/useravatar?size=medium&ownerId=iryselvg1&avatarId=77647",
+        "48x48": "https://jira.atlassian.com/secure/useravatar?ownerId=iryselvg1&avatarId=77647"
+      },
+      "displayName": "Irina G",
+      "active": true,
+      "timeZone": "Etc/UTC"
+    },
+    "customfield_13231": null,
+    "customfield_10330": null,
+    "updated": "2014-09-18T10:47:50.751+0000",
+    "created": "2014-09-18T09:53:16.018+0000",
+    "customfield_10180": null,
+    "customfield_10041": null,
+    "priority": {
+      "self": "https://jira.atlassian.com/rest/api/2/priority/3",
+      "iconUrl": "https://jira.atlassian.com/images/icons/priorities/major.png",
+      "name": "Major",
+      "id": "3"
+    },
+    "description": "STR:\r\n1. Open URL:http://vk.com\r\n2. Log into account (login: Skillup@gmail.com, password: 111111)\r\n3. Open applications, select RADIO ONLINE\r\n4. Select Украина \r\n5. Select Gala\r\n6. Press Play button\r\n\r\nExpected result:\r\nMusic is played\r\nActual result:\r\nNo audio\r\n\r\n",
+    "customfield_10040": {
+      "self": "https://jira.atlassian.com/rest/api/2/customFieldOption/10180",
+      "value": "<a href=\"http://www.bea.com\">bea</a>",
+      "id": "10180"
+    },
+    "customfield_13430": null,
+    "issuelinks": [],
+    "customfield_13230": null,
+    "customfield_14430": null,
+    "subtasks": [],
+    "status": {
+      "self": "https://jira.atlassian.com/rest/api/2/status/4",
+      "description": "This issue was once resolved, but the resolution was deemed incorrect. From here issues are either marked assigned or resolved.",
+      "iconUrl": "https://jira.atlassian.com/images/icons/statuses/reopened.png",
+      "name": "Reopened",
+      "id": "4",
+      "statusCategory": {
+        "self": "https://jira.atlassian.com/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "To Do"
+      }
+    },
+    "labels": [
+      "radio"
+    ],
+    "workratio": 33,
+    "customfield_10530": null,
+    "customfield_12832": null,
+    "customfield_12833": null,
+    "customfield_12531": "Not Started",
+    "customfield_10421": null,
+    "project": {
+      "self": "https://jira.atlassian.com/rest/api/2/project/10420",
+      "id": "10420",
+      "key": "TST",
+      "name": "A Test Project",
+      "avatarUrls": {
+        "16x16": "https://jira.atlassian.com/secure/projectavatar?size=xsmall&pid=10420&avatarId=10061",
+        "24x24": "https://jira.atlassian.com/secure/projectavatar?size=small&pid=10420&avatarId=10061",
+        "32x32": "https://jira.atlassian.com/secure/projectavatar?size=medium&pid=10420&avatarId=10061",
+        "48x48": "https://jira.atlassian.com/secure/projectavatar?pid=10420&avatarId=10061"
+      }
+    },
+    "customfield_12931": null,
+    "environment": "browsers Chrome, Safari",
+    "aggregateprogress": {
+      "progress": 7200,
+      "total": 28800,
+      "percent": 25
+    },
+    "lastViewed": null,
+    "components": [
+      {
+        "self": "https://jira.atlassian.com/rest/api/2/component/10240",
+        "id": "10240",
+        "name": "Component 1",
+        "description": "A test component"
+      }
+    ],
+    "customfield_10010": "test",
+    "comment": {
+      "startAt": 0,
+      "maxResults": 0,
+      "total": 0,
+      "comments": []
+    },
+    "timeoriginalestimate": 21600,
+    "customfield_10150": [
+      "iryselvg1(iryselvg1)"
+    ],
+    "customfield_11436": "9223372036854775807",
+    "customfield_11435": "9223372036854775807",
+    "customfield_11437": "9223372036854775807",
+    "votes": {
+      "self": "https://jira.atlassian.com/rest/api/2/issue/TST-56333/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "fixVersions": [],
+    "resolution": null,
+    "customfield_10680": null,
+    "resolutiondate": null,
+    "creator": {
+      "self": "https://jira.atlassian.com/rest/api/2/user?username=iryselvg1",
+      "name": "iryselvg1",
+      "emailAddress": "iryselvg at gmail dot com",
+      "avatarUrls": {
+        "16x16": "https://jira.atlassian.com/secure/useravatar?size=xsmall&ownerId=iryselvg1&avatarId=77647",
+        "24x24": "https://jira.atlassian.com/secure/useravatar?size=small&ownerId=iryselvg1&avatarId=77647",
+        "32x32": "https://jira.atlassian.com/secure/useravatar?size=medium&ownerId=iryselvg1&avatarId=77647",
+        "48x48": "https://jira.atlassian.com/secure/useravatar?ownerId=iryselvg1&avatarId=77647"
+      },
+      "displayName": "Irina G",
+      "active": true,
+      "timeZone": "Etc/UTC"
+    },
+    "customfield_10064": null,
+    "aggregatetimeoriginalestimate": 21600,
+    "customfield_12430": null,
+    "customfield_10161": "true",
+    "customfield_10160": "3456000",
+    "customfield_12431": null,
+    "customfield_12432": null,
+    "customfield_12433": null,
+    "customfield_12434": null,
+    "customfield_12831": null,
+    "customfield_12830": null,
+    "customfield_12435": null,
+    "duedate": "2014-09-30",
+    "customfield_12730": null,
+    "watches": {
+      "self": "https://jira.atlassian.com/rest/api/2/issue/TST-56333/watchers",
+      "watchCount": 1,
+      "isWatching": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 1,
+      "worklogs": [
+        {
+          "self": "https://jira.atlassian.com/rest/api/2/issue/358579/worklog/126696",
+          "author": {
+            "self": "https://jira.atlassian.com/rest/api/2/user?username=iryselvg1",
+            "name": "iryselvg1",
+            "emailAddress": "iryselvg at gmail dot com",
+            "avatarUrls": {
+              "16x16": "https://jira.atlassian.com/secure/useravatar?size=xsmall&ownerId=iryselvg1&avatarId=77647",
+              "24x24": "https://jira.atlassian.com/secure/useravatar?size=small&ownerId=iryselvg1&avatarId=77647",
+              "32x32": "https://jira.atlassian.com/secure/useravatar?size=medium&ownerId=iryselvg1&avatarId=77647",
+              "48x48": "https://jira.atlassian.com/secure/useravatar?ownerId=iryselvg1&avatarId=77647"
+            },
+            "displayName": "Irina G",
+            "active": true,
+            "timeZone": "Etc/UTC"
+          },
+          "updateAuthor": {
+            "self": "https://jira.atlassian.com/rest/api/2/user?username=iryselvg1",
+            "name": "iryselvg1",
+            "emailAddress": "iryselvg at gmail dot com",
+            "avatarUrls": {
+              "16x16": "https://jira.atlassian.com/secure/useravatar?size=xsmall&ownerId=iryselvg1&avatarId=77647",
+              "24x24": "https://jira.atlassian.com/secure/useravatar?size=small&ownerId=iryselvg1&avatarId=77647",
+              "32x32": "https://jira.atlassian.com/secure/useravatar?size=medium&ownerId=iryselvg1&avatarId=77647",
+              "48x48": "https://jira.atlassian.com/secure/useravatar?ownerId=iryselvg1&avatarId=77647"
+            },
+            "displayName": "Irina G",
+            "active": true,
+            "timeZone": "Etc/UTC"
+          },
+          "comment": "",
+          "created": "2014-09-18T10:16:50.576+0000",
+          "updated": "2014-09-18T10:16:50.576+0000",
+          "started": "2014-09-18T10:16:00.000+0000",
+          "timeSpent": "2h",
+          "timeSpentSeconds": 7200,
+          "id": "126696"
+        }
+      ]
+    },
+    "customfield_10061": {
+      "self": "https://jira.atlassian.com/rest/api/2/customFieldOption/10098",
+      "value": "Mammals",
+      "id": "10098"
+    },
+    "customfield_11631": null,
+    "customfield_11130": "9223372036854775807",
+    "customfield_10651": null,
+    "customfield_10650": null,
+    "customfield_11230": null,
+    "customfield_10653": null,
+    "assignee": null,
+    "attachment": [],
+    "customfield_10550": null,
+    "customfield_14130": null,
+    "customfield_10500": null,
+    "aggregatetimeestimate": 21600,
+    "versions": [
+      {
+        "self": "https://jira.atlassian.com/rest/api/2/version/13203",
+        "id": "13203",
+        "description": "A description!",
+        "name": "Test Version 1",
+        "archived": false,
+        "released": false,
+        "releaseDate": "2008-10-13"
+      }
+    ],
+    "customfield_10170": null,
+    "customfield_12131": null,
+    "customfield_14330": null,
+    "customfield_14735": "0|11c0ds:",
+    "timeestimate": 21600,
+    "customfield_11531": null,
+    "customfield_11433": "9223372036854775807",
+    "customfield_11434": "9223372036854775807",
+    "customfield_11431": "9223372036854775807",
+    "customfield_11930": null,
+    "customfield_12130": null,
+    "aggregatetimespent": 7200
+  }
+}
