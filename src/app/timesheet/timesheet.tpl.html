@@ -1,5 +1,8 @@
 <h1>Timesheet</h1>
 
-<ul>
-	<li ng-repeat="issue in issuesInPeriod">{{issue.key}}</li>
-</ul>
+<table ng-table="tableParams" class="table">
+    <tr ng-repeat="issue in $data">
+        <td data-title="'day'">{{issue.day}}</td>
+        <td data-title="'timespent'">{{issue.timespent}}</td>
+    </tr>
+ </table>
