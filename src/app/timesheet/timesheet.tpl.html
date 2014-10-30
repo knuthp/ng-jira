@@ -1,8 +1,29 @@
 <h1>Timesheet</h1>
-
-<table ng-table="tableParams" class="table">
-    <tr ng-repeat="issue in $data">
-        <td data-title="'day'">{{issue.day}}</td>
-        <td data-title="'timespent'">{{issue.timespent}}</td>
-    </tr>
- </table>
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr class="info">
+                <th></th>
+                <th>Group</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th> 
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <div >
+                <tr ng-repeat="(group, name) in groups">
+                    <th>{{group}}</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>            
+                    <td></td>
+                    <td></td>
+                </tr>
+            </div>
+        </tbody>
+    </table>
+</div>

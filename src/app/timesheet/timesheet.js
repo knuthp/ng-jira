@@ -14,7 +14,7 @@
     }]);
 
     app.controller('TimesheetController', ['$scope', '$http', '$filter', 'ngTableParams', function ($scope, $http, $filter, NgTableParams) {
-        $scope.groups = [];
+        $scope.groups = {unknown : "unknown"};
         $scope.issuesInPeriod = [];
 
         var init = function() {
@@ -23,17 +23,8 @@
 
         init();
 
-        $scope.tableParams = new NgTableParams({
-            page: 1,            // show first page
-            count: 10           // count per page
-        }, {
-            total: $scope.issuesInPeriod.length, // length of data
-            getData: function($defer, params) {
-                $defer.resolve($scope.issuesInPeriod.slice((params.page() - 1) * params.count(), params.page() * params.count()));
-            }
-        });
 
-        $http.get("/rest/api/latest/search?jql=updated>=2014-10-29+and+project=JRA")
+        $http.get("/rest/api/latest/search?jql=updated>=2014-10-30+and+project=JRA")
             .success(function(data) {
                 console.log("Total: " + data.total + "l " + data.issues.length);
                 for (var i = 0; i < data.issues.length; i++) {
@@ -46,10 +37,17 @@
             $http.get("rest/api/latest/issue/" + issue.key)
                 .success(function(data) {
                 console.log("Data.key:" + data.key);
-                console.log("Project" + data.fields.project.key);
-                var group = data.fields.components[0].name;
-                $scope.groups[group] = group;
-                $scope.issuesInPeriod.push({issue : data, day : "Monday", group : group, timespent : 160, action : "Work"});
+                console.log("Comments.length: " + data.fields.comment.comments.length);
+
+                var group;
+                if (data.fields.components.length === 0) {
+                    group = "";
+                } else {
+                    group = data.fields.components[0].name;
+                    $scope.groups[group] = group;
+                }
+                console.log($scope.groups);
+                $scope.issuesInPeriod.push({issue : data, day : "Monday", group : group, timespent : 160, action : "Comment"});
             });
             return 0;
         }
